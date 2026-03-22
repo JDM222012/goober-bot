@@ -251,8 +251,9 @@ silly_command! {
             "{author} gave {user} a much needed hug {FLOOF_HEART}",
             "{author} wrapped their arms around {user} for a hug {FLOOF_HEART}",
             "Awww, {author} and {user} are hugging, so wholesome {FLOOF_PLEAD}",
-            "{author} and {user} are hugging and uhh, me too, I'm also a part of the hug {FLOOF_PLEAD}",
+            "{author} and {user} are hugging and uhh, they're really cute {FLOOF_PLEAD}",
             "Before {user} could say anything, {author} had them trapped in an embrace {FLOOF_HEART}",
+            "{user} got absolutely loved with a hug by {author} {FLOOF_HEART}",
         ];
     }
 }
@@ -403,7 +404,48 @@ silly_command! {
             "{author} {user} hamburger",
             "{author} {user} hamburger",
             "{author} {user} hamburger",
+            "{author} {user} hamburger",
+            "{author} {user} hamburger",
+            "{author} {user} hamburger",
+            "{author} {user} hamburger",
+            "{author} {user} hamburger",
+            "{author} {user} hamburger",
+            "{author} {user} hamburger",
+            "{author} {user} hamburger",
+            "{author} {user} hamburger",
+            "{author} {user} hamburger",
+            "{author} {user} hamburger",
+            "{author} {user} hamburger",
+            "{author} {user} hamburger",
+            "{author} {user} hamburger",
+            "{author} {user} hamburger",
+            "{author} {user} hamburger",
+            "{author} {user} hamburger",
+            "{author} {user} hamburger",
+            "{author} {user} hamburger",
+            "{author} {user} hamburger", 
+            "{author} {user} hamburger",
+            "{author} {user} hamburger",
+            "{author} {user} hamburger",
+            "{author} {user} hamburger",
+            "{author} {user} hamburger",
+            "{author} {user} hamburger",
+            "{author} {user} hamburger",
+            "{author} {user} hamburger",
+            "{author} {user} hamburger",
+            "{author} {user} hamburger",
+            "{author} {user} hamburger",
+            "{author} {user} hamburger",
+            "{author} {user} hamburger",
+            "{author} {user} hamburger",
+            "{author} {user} hamburger",
+            "{author} {user} hamburger",
+            "{author} {user} hamburger",
+            "{author} {user} hamburger",
+            "{author} {user} hamburger",
+            "{author} {user} hamburger",
             "{author} {user} hamburber",
+            "{user} {author} hamburger",
         ];
     }
 }
@@ -443,5 +485,31 @@ silly_command! {
         ];
     }
 }
-
-// TODO: /cuddle
+silly_command! {
+    /// This is what its all about!!
+    #[early_access]
+    fn about("about") {
+        bot_message = "fork of a fork, slightly altered bot by @jdmann6/berdly :3, fork of vgskye's fork of valentinegbs goober bot";
+        author_message = "fork of a fork, slightly altered bot by @jdmann6/berdly :3, fork of vgskye's fork of valentinegbs goober bot";
+        messages = [
+            "fork of a fork, slightly altered bot by @jdmann6/berdly :3, fork of vgskye's fork of valentinegbs goober bot",
+        ];
+    }
+}
+silly_command! {
+    /// Cuddle!!
+    #[early_access]
+    fn cuddle("Snuggly Cuddly Snuggles!!") {
+        bot_message = "awwww, {author}, you're cuddling me?? thanksss~~~ {FLOOF_OWO}";
+        author_message = "Uh, {author} is just... cuddling themselves... I guess we should just let them be {FLOOF_TIRED}";
+        messages = [
+            "{user} just got absolutely loved and cuddled by {author} {FLOOF_HAPPY}",
+            "{author}, just snagged up {user}, and now {user} got cuddled into oblivion {FLOOF_MISCHIEF}",
+            "Whoa, it turns out {author} was a secret cuddler the whole time- and now they're cuddling {user} {FLOOF_OWO}",
+            "{author} picked up {user} and gave big floffy cuddles {FLOOF_TIRED}",
+            "{author} gave {user} a life of free cuddles... dang, that's cute {FLOOF_SAD}",
+            "Hey there, uh, {user}? Is it? Yeah, uhm, we've got a cuddler named {author} for you... we're gonna have to put you under their infinite cuddles {FLOOF_SMUG}",
+            "{author} is cuddling {user}? That's really cute :3 {FLOOF_LOAD_ANIMATED}",
+        ];
+    }
+}

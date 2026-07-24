@@ -89,6 +89,7 @@ async fn main() -> Result<(), poise_error::anyhow::Error> {
     let client_builder = client_builder.event_handler_arc(autoposter.handler());
     let mut commands = vec![
         analytics(),
+        commands::about(),
         commands::anon(),
         commands::arrest(),
         commands::bap(),
@@ -96,6 +97,7 @@ async fn main() -> Result<(), poise_error::anyhow::Error> {
         commands::blow_up(),
         commands::boop(),
         commands::carry(),
+        commands::cuddle()
         commands::debug(),
         commands::defenestrate(),
         commands::gnaw(),

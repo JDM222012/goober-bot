@@ -489,10 +489,10 @@ silly_command! {
     /// This is what its all about!!
     #[early_access]
     fn about("about") {
-        bot_message = "fork of a fork, slightly altered bot by @jdmann6/berdly :3, fork of vgskye's fork of valentinegbs goober bot";
-        author_message = "fork of a fork, slightly altered bot by @jdmann6/berdly :3, fork of vgskye's fork of valentinegbs goober bot";
+        bot_message = "fork of a fork, slightly altered bot by @baxter.zip, fork of vgskye's fork of valentinegbs goober bot - Requested by {author}";
+        author_message = "fork of a fork, slightly altered bot by @baxter.zip, fork of vgskye's fork of valentinegbs goober bot - Requested by {author}";
         messages = [
-            "fork of a fork, slightly altered bot by @jdmann6/berdly :3, fork of vgskye's fork of valentinegbs goober bot",
+            "fork of a fork, slightly altered bot by @baxter.zip, fork of vgskye's fork of valentinegbs goober bot - Requested by {author} for {user} for, some reason",
         ];
     }
 }

@@ -157,7 +157,7 @@ silly_command! {
             "D- did {author} just bite {user}?? {FLOOF_OWO}",
             "The intrusive thoughts won and now {author}'s biting {user} {FLOOF_MISCHIEF}",
             "\\*CHOMP\\*\n{author} bit {user} {FLOOF_NOM}",
-            "Oh, sorry {user}, I guess {author} got hungry {FLOOF_TIRED}",
+            "Oh, sorry {user}, I guess {author} got hungry <:floofTired:1530411654976901250>",
             "Eeeeek! {user}, didn't you know? *{author} bites!* {FLOOF_NERVOUS}",
             "{user} got a little too close to {author} and got bit {FLOOF_NERVOUS}",
         ];
@@ -277,14 +277,14 @@ silly_command! {
 silly_command! {
     /// *bap* *bap*
     fn bap("Bap receiver") {
-        bot_message = "WHAT- oh, {author} just bapped me. What do you want buddy? {FLOOF_TIRED}";
-        author_message = "{author}'s bapping themselves, they seem a little confused... {FLOOF_TIRED}";
+        bot_message = "WHAT- oh, {author} just bapped me. What do you want buddy? <:floofTired:1530411654976901250>";
+        author_message = "{author}'s bapping themselves, they seem a little confused... <:floofTired:1530411654976901250>";
         messages = [
             "{author} bapped {user} and {user} jumped {FLOOF_LOL}",
             "{user} was startled for a moment when {author} snuck up and bapped them {FLOOF_LOL}",
             "{author} sloooowly reached out... and then bapped {user} {FLOOF_LURK}",
             "{author} swat at and bapped {user} like a cat {FLOOF_CAT}",
-            "LOOK OUT {user}, {author}'S GONNA- oh, they only bapped you {FLOOF_TIRED}",
+            "LOOK OUT {user}, {author}'S GONNA- oh, they only bapped you <:floofTired:1530411654976901250>",
             "{author} bapped {user} before retreating into the shadows... {FLOOF_PEEK}",
         ];
     }
@@ -334,7 +334,7 @@ silly_command! {
             "\\*poke* \\*poke*\n{author}'s poking you, {user} {FLOOF_BLEP}",
             "{author} poked {user} with a stick from a distance {FLOOF_PEEK}",
             "{user} felt a sudden poke from {author}, startling them {FLOOF_OWO}",
-            "Sorry {user}, {author}'s not gonna stop poking you until you pay attention to them {FLOOF_TIRED}",
+            "Sorry {user}, {author}'s not gonna stop poking you until you pay attention to them <:floofTired:1530411654976901250>",
             "{user} suddenly felt a poke on their shoulder, only to turn and see {author} innocently looking away {FLOOF_INNOCENT}",
         ];
     }
@@ -345,7 +345,7 @@ silly_command! {
     #[early_access]
     fn tickle("TICKLE SOMEBODY ELSE, PLEEAASE") {
         bot_message = "N- NO- HAH HAH- HEEE- HO- HAH- PLEASE- SOMEBODY- MAKE {author} STOPPPP HUHEHAH- {FLOOF_SCARED}";
-        author_message = "{author}- you can't tickle *yourself*, it won't work... {FLOOF_TIRED}";
+        author_message = "{author}- you can't tickle *yourself*, it won't work... <:floofTired:1530411654976901250>";
         messages = [
             "Oh no- {user}, {author}'s discovered your weakness: *tickles* {FLOOF_NERVOUS}",
             "The crime: {user}'s been *killed*\nThe criminal: {author}\nThe weapon: *tickles* {FLOOF_SAD}",
@@ -455,11 +455,11 @@ silly_command! {
     #[early_access]
     fn defenestrate("I guess you could just try it and see...") {
         bot_message = "Oh no! {author}'s defenestrating me! Which is a (rare) word which means to throw (someone) out of a window! Oh no!!! {FLOOF_OWO}";
-        author_message = "{author} needed out so they swiftly *jumped out of the window* to their immediate left. Seems a little bit rash to me {FLOOF_TIRED}";
+        author_message = "{author} needed out so they swiftly *jumped out of the window* to their immediate left. Seems a little bit rash to me <:floofTired:1530411654976901250>";
         messages = [
             "{author} defenestrated {user}. Haha you thought I was gonna tell you what the word meant hehe {FLOOF_TEEHEE}",
             "> # de•fen•es•trate |dēˈfenəˌstrāt|\n> -# verb *[with object]*\n> 1. *rare* **throw (someone) out of a window**: *{author} defenestrated {user} in a case that was previously suspected to be suicide.*\n> 2. **remove or dismiss (someone) from a position of power or authority**: *the overwhelming view is that they should be defenestrated before the next election.*\n> \n> ### ORIGIN\n> **early 17th century (as *defenestrated*): see defenestration.**\n\nSo now you know! {FLOOF_BLEP}",
-            "Oh, {author} threw {user} out of a window- so that's what it means... {FLOOF_TIRED}",
+            "Oh, {author} threw {user} out of a window- so that's what it means... <:floofTired:1530411654976901250>",
             "{author} *threw* {user} *out of a window*- like, *breaking through the glass, {user} is now a puddle on the ground outside*! Idk how to express how ridiculous this is {FLOOF_NERVOUS}",
             "Hey {author}, where'd {user} go?\n \\*suspiciously {user} shaped hole in the window* {FLOOF_LOAD_ANIMATED}",
             "Oopsies {author} just committed a crime on {user}! They pushed {user} out of the window of a 12 story building! Whoops! Your honor, I plead: I didn't know what the word meant!!! {FLOOF_PLEAD}",
@@ -473,12 +473,12 @@ silly_command! {
     #[early_access]
     fn arrest("Anything you say can and will be used against you.") {
         bot_message = "PUT ME DOWN {author} I AM THE LAW {I_AM_THE_LAW}";
-        author_message = "Uh, {author} just slapped on a pair of handcuffs... I guess they're arresting themselves {FLOOF_TIRED}";
+        author_message = "Uh, {author} just slapped on a pair of handcuffs... I guess they're arresting themselves <:floofTired:1530411654976901250>";
         messages = [
             "*Wee woo wee woo*, stop right there {user}, this is the Goober Police! We have warrant for you arrest, on behalf of {author} {FLOOF_MISCHIEF}",
             "{user}, on behalf of {author}, you are under arrest! Anything you say can and will be used against you {FLOOF_MISCHIEF}",
             "Whoa, it turns out {author} was an undercover cop the whole time- and now they're arresting {user} {FLOOF_OWO}",
-            "{author} picked up {user} and put them in baby jail {FLOOF_TIRED}",
+            "{author} picked up {user} and put them in baby jail <:floofTired:1530411654976901250>",
             "{author} sentenced {user} to a life behind bars... dang, that's rough {FLOOF_SAD}",
             "Hey there, uh, {user}? Is it? Yeah, uhm, we've got a noise complaint from {author} for you... we're gonna have to put you under arrest {FLOOF_SMUG}",
             "{author} is arresting {user}? Wait, they're not a cop- where'd they get those handcuffs? {FLOOF_LOAD_ANIMATED}",
@@ -501,12 +501,12 @@ silly_command! {
     #[early_access]
     fn cuddle("Snuggly Cuddly Snuggles!!") {
         bot_message = "awwww, {author}, you're cuddling me?? thanksss~~~ {FLOOF_OWO}";
-        author_message = "Uh, {author} is just... cuddling themselves... I guess we should just let them be {FLOOF_TIRED}";
+        author_message = "Uh, {author} is just... cuddling themselves... I guess we should just let them be <:floofTired:1530411654976901250>";
         messages = [
             "{user} just got absolutely loved and cuddled by {author} {FLOOF_HAPPY}",
             "{author}, just snagged up {user}, and now {user} got cuddled into oblivion {FLOOF_MISCHIEF}",
             "Whoa, it turns out {author} was a secret cuddler the whole time- and now they're cuddling {user} {FLOOF_OWO}",
-            "{author} picked up {user} and gave big floffy cuddles {FLOOF_TIRED}",
+            "{author} picked up {user} and gave big floffy cuddles <:floofTired:1530411654976901250>",
             "{author} gave {user} a life of free cuddles... dang, that's cute {FLOOF_SAD}",
             "Hey there, uh, {user}? Is it? Yeah, uhm, we've got a cuddler named {author} for you... we're gonna have to put you under their infinite cuddles {FLOOF_SMUG}",
             "{author} is cuddling {user}? That's really cute :3 {FLOOF_LOAD_ANIMATED}",

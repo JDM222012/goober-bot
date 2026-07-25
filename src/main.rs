@@ -97,7 +97,7 @@ async fn main() -> Result<(), poise_error::anyhow::Error> {
         commands::blow_up(),
         commands::boop(),
         commands::carry(),
-        commands::cuddle()
+        commands::cuddle(),
         commands::debug(),
         commands::defenestrate(),
         commands::gnaw(),
